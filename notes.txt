@@ -45,3 +45,6 @@
     Ajout dans le fichier .gitignore 
     ~ prive/
     Faire des git status pour montrer le différence
+    # git add .
+    # git commit 
+    # git push (Explication sans paramètre)
