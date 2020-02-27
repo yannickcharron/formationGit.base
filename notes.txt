@@ -1,0 +1,14 @@
+1. Installer Git : https://git-scm.com/
+2. Valider l'installation
+    # git --version
+3. Configurer son nom et courriel. 
+    Cette étape n'est pas pour l'authentification, mais pour l'identification
+    # git config --global user.name "Your Name"
+    # git config --global user.email "your@email.com"
+4. Initialiser notre repository
+    # git init
+5. Voir le status de l'espace de travail (Working directory)
+    # git status
+6. Ajouter au staging area
+    # git add notes.txt
+    # git status
