@@ -40,5 +40,8 @@
     # git remote add origin <url>
     # git push -u origin master
     ~ Demande de connexion à GitHub
-
-
+    ~ Voir le résultat sur GitHub
+15. Ajout du dossier prive et fichier motDePasse.secret
+    Ajout dans le fichier .gitignore 
+    ~ prive/
+    Faire des git status pour montrer le différence
