@@ -20,7 +20,14 @@
 8.  Refaire un commit
     #  git status
     #  git add notes.txt
+    #  git status
     #  git commit -m "Deuxième commit avec modifications"
     #  git status
     #  git log
+9. Création d'un repository sur GitHub
+10. Créer un fichier README.md
+    Écrire son nom dans le fichier README.md
+11. Créer un fichier .gitignore
+. Lien entre notre repository local et remote
+
 
