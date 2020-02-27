@@ -1,14 +1,26 @@
 1. Installer Git : https://git-scm.com/
 2. Valider l'installation
-    # git --version
+    #  git --version
 3. Configurer son nom et courriel. 
     Cette étape n'est pas pour l'authentification, mais pour l'identification
-    # git config --global user.name "Your Name"
-    # git config --global user.email "your@email.com"
+    #  git config --global user.name "Your Name"
+    #  git config --global user.email "your@email.com"
 4. Initialiser notre repository
-    # git init
+    #  git init
 5. Voir le status de l'espace de travail (Working directory)
-    # git status
-6. Ajouter au staging area
-    # git add notes.txt
-    # git status
+    #  git status
+6. Ajouter au staging area 
+    #  git add notes.txt
+    #Q git status
+    ~ Voir dans VS Code à gauche peut-être
+7. Premier commmit
+    #  git commit -m "Premier commit - ajout du fichier notes.txt"
+    #Q git status
+    #  git logs
+8.  Refaire un commit
+    #  git status
+    #  git add notes.txt
+    #  git commit -m "Deuxième commit avec modifications"
+    #  git status
+    #  git log
+
