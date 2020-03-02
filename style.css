@@ -33,6 +33,7 @@ main {
 }
 
 .navbar {
+    top:0;
     width: 5rem;
     height: 100vh; /* Relative unit to the viewport (taille du fureteur) */
     position: fixed;
