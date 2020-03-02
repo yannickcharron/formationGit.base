@@ -9,19 +9,28 @@
     #  git init
 5. Voir le status de l'espace de travail (Working directory)
     #  git status
+5.a Ajouter un fichier notes.txt, index.html et styles.css
+    #  git status
 6. Ajouter au staging area 
     #  git add notes.txt
     #Q git status
     ~ Voir dans VS Code à gauche peut-être
 7. Premier commmit
-    #  git commit -m "Premier commit - ajout du fichier notes.txt"
+    #  git commit -m "Premier commit - ajout des fichier notes.txt, index.html et style.css" //Ils sont presque vides
     #Q git status
     #  git logs
-8.  Refaire un commit
+8.a  Faire le code du fichier index.html //Mon commit 70c1a7901d218131f28a775eae847ab82c1b6e2f
+8.b  Refaire un commit
     #  git status
-    #  git add notes.txt
+    #  git add notes.txt index.html
     #  git status
     #  git commit -m "Deuxième commit avec modifications"
+    #  git status
+    #  git log
+8.c Faire le code du fichier style.css //Mon commit a9acf57347a4b6edaeffdc6695fc966e8d671c11
+    #  git status
+    #  git add style.css
+    #  git commit -m "Style de base"
     #  git status
     #  git log
 9. Création d'un repository sur GitHub
