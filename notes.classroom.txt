@@ -42,8 +42,8 @@
     git tag -a navbar-v1 -m "Merge de navbar"
     Supprimer la branche terminé (protection sinon commit non merge)
     # git branch -d navbar
-    # git push
-
+    Constater que la branch n'est pas supprimer sur le remote (GitHub) Autre test à faire ici.
+    # git push origin --delete navbar
 Parler 12 seconde de rebase.
 
 Commentaire sur la suppression de branch
@@ -54,7 +54,6 @@ the hotfix branch will continue pointing at the same place while master will get
 So basically the only reason to keep hotfix branch after a merge is if you plan to make any more changes to the same hotfix, 
 which doesn't make much sense once you release the hotfix. So you should feel perfectly safe deleting the branch after the merge. 
 One more thing you could do though, is once the hotfix is merged, create a tag on the master branch identifying that point as the hotfix release.
-
 
 10. Commit et push des notes
     git status
