@@ -1,0 +1,73 @@
+Énoncé du travail remise partielle et le barre de navigation (vous allez mal lire la consigne)
+1.  Faire changer le nom pour le leur nom dans le fichier index.html
+1.a Faire un commit et push du fichier index.html
+
+2. Création de la branch navbar
+    # git branch navbar
+3. Changer de branch
+    # git checkout navbar
+
+4. Commencer les travaux pour la navbar
+
+~ Faire un commit seulement pour le html
+
+5. Avant de faire le style pour .navbar-nav
+    L'enseignant va valider la remise partielle vos noms dans les fichier README.MD et index.html
+        Vous avez oublier le fichier README.MD
+        Revenir sur master pour faire la correction au fichier et commit/push
+
+6. Retour sur la branch master
+    # git checkout master
+    Faire la modification au fichier README.md
+    # git add README.MD
+    # git commit -m "Modification pour remise partielle"
+    # git push
+
+7. Récupération des copies par l'enseignant
+
+8. Retourner sur la branch navbar
+    # git checkout navbar
+    Faire le code juste avant les transition (.nav-link svg)
+    # git status
+    # git add index.html style.css
+    # git commit -m "Début de la navbar" e50dcc6a5942f3b80aa21d5702e9cf7b74746a99
+    # git status
+    # git push --Erreur (la branch n'existe pas sur le repository remote)
+    # git push --set-upstream origin navbar
+
+9. Merge de la branch
+    Revenir sur la branch qui n'a pas le contenu de la branch à merge
+    # git merge navbar
+    Création d'un tag pour la version 1 de la navbar
+    git tag -a navbar-v1 -m "Merge de navbar"
+    Supprimer la branche terminé (protection sinon commit non merge)
+    # git branch -d navbar
+    # git push
+
+Parler 12 seconde de rebase.
+
+Commentaire sur la suppression de branch
+the way git works is that a branch name is just a pointer to a specific commit. Once you merge a hotfix branch into master, 
+your hotfix and master will point to exactly the same place in the commit tree. As you make more commits on master, 
+the hotfix branch will continue pointing at the same place while master will get updated. Your history will always be preserved.
+
+So basically the only reason to keep hotfix branch after a merge is if you plan to make any more changes to the same hotfix, 
+which doesn't make much sense once you release the hotfix. So you should feel perfectly safe deleting the branch after the merge. 
+One more thing you could do though, is once the hotfix is merged, create a tag on the master branch identifying that point as the hotfix release.
+
+
+10. Commit et push des notes
+    git status
+    git add notes.classroom.txt
+    git commit -m "Note 2e partie"
+    git push
+
+
+? Transition
+
+? Media Query
+
+? Theme
+
+
+
