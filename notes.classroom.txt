@@ -44,6 +44,7 @@
     # git branch -d navbar
     Constater que la branch n'est pas supprimer sur le remote (GitHub) Autre test à faire ici.
     # git push origin --delete navbar
+    eq git push origin :navbar
 Parler 12 seconde de rebase.
 
 Commentaire sur la suppression de branch
@@ -60,7 +61,6 @@ One more thing you could do though, is once the hotfix is merged, create a tag o
     git add notes.classroom.txt
     git commit -m "Note 2e partie"
     git push
-
 
 ? Transition
 
